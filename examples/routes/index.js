@@ -26,7 +26,7 @@
     var ROUTER = express.Router();
 
     /**
-     * [createToken create a tojen from the user data]
+     * [createToken create a token from the user data]
      * @param  {[object]} user
      * @return {[string]} token
      */

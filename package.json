@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "gulp test",
-    "test-dev":" gulp build-image \n docker run -i -t thomasnyambati/constable"
+    "test-dev": " gulp build-image \n docker run -i -t thomasnyambati/constable"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,8 @@
     "express-unless": "^0.3.0",
     "js-yaml": "^3.6.0",
     "lodash": "^4.11.2",
-    "npmlog": "^2.0.3"
+    "npmlog": "^2.0.3",
+    "redis": "^2.6.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
